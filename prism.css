@@ -1,5 +1,5 @@
 /* PrismJS 1.30.0
-https://prismjs.com/download.html?ref=ghost.org#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+css-extras+hcl+http+powershell+python+typescript+typoscript&plugins=line-highlight+line-numbers+show-invisibles+autolinker+show-language+highlight-keywords+autoloader+toolbar+copy-to-clipboard+match-braces */
+https://prismjs.com/download.html?ref=ghost.org#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+css-extras+hcl+http+powershell+python+typescript+typoscript&plugins=line-highlight+line-numbers+autolinker+show-language+highlight-keywords+autoloader+toolbar+copy-to-clipboard+match-braces */
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
@@ -234,41 +234,6 @@ pre[class*="language-"].line-numbers > code {
 			padding-right: 0.8em;
 			text-align: right;
 		}
-
-.token.tab:not(:empty),
-.token.cr,
-.token.lf,
-.token.space {
-	position: relative;
-}
-
-.token.tab:not(:empty):before,
-.token.cr:before,
-.token.lf:before,
-.token.space:before {
-	color: #808080;
-	opacity: 0.6;
-	position: absolute;
-}
-
-.token.tab:not(:empty):before {
-	content: '\21E5';
-}
-
-.token.cr:before {
-	content: '\240D';
-}
-
-.token.crlf:before {
-	content: '\240D\240A';
-}
-.token.lf:before {
-	content: '\240A';
-}
-
-.token.space:before {
-	content: '\00B7';
-}
 
 .token a {
 	color: inherit;
